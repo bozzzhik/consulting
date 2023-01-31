@@ -1,0 +1,10 @@
+@import url('https://bozzhik.ru/css/reboot.css');
+@import 'css/index.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+   --white: #fff;
+   --blue: #181621;
+   --gradient: linear-gradient(180deg, #9135ff 0%, #6f4cfe 100%);
+}
