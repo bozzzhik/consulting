@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body.index {
    font-family: 'Inter', sans-serif;
    background-color: var(--blue);
@@ -79,11 +83,11 @@ body.index {
       }
    }
    section.advantages {
+      scroll-margin-block-start: 12.5vw;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin: 0 auto;
-      // min-height: 25vh;
 
       div.advantages__item {
          display: flex;
