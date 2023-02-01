@@ -1,4 +1,81 @@
 body.index {
    font-family: 'Inter', sans-serif;
    background-color: var(--blue);
+
+   section.main {
+      padding: 2vw;
+      position: relative;
+      min-height: 100vh;
+
+      & > header {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+
+         img {
+            width: 3vw;
+
+            &:hover {
+               transition: all 0.5s ease;
+               transform: rotate(180deg);
+            }
+         }
+
+         & > div.header__panel {
+            a {
+               margin-left: 2vw;
+               color: var(--white);
+
+               &:nth-of-type(1) {
+                  margin-left: 0vw;
+               }
+            }
+         }
+      }
+
+      section.main__elements {
+         margin: 10vw 0 0 12.5vw;
+
+         .elements__text {
+            color: var(--white);
+
+            h1 {
+               font-size: 1.45vw;
+               font-weight: 500;
+            }
+
+            p {
+               font-size: 5.5vw;
+               line-height: 117%;
+               font-weight: 800;
+            }
+         }
+
+         button {
+            margin-top: 2vw;
+            width: 10.75vw;
+            height: 3.13vw;
+            border-radius: 10px;
+            font-size: 1.1vw;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 0;
+            color: var(--white);
+            background: var(--gradient);
+
+            &:hover {
+               transition: all 0.25s ease;
+               color: black;
+            }
+         }
+      }
+
+      & > img {
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 100vw;
+         z-index: -1;
+      }
+   }
 }
