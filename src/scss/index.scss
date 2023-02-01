@@ -18,7 +18,7 @@ body.index {
          justify-content: space-between;
 
          img {
-            width: 3vw;
+            width: 6vw;
 
             &:hover {
                transition: all 0.5s ease;
@@ -42,18 +42,20 @@ body.index {
       }
 
       div.main__elements {
-         margin: 10vw 0 0 12.5vw;
+         margin: 6.5vw 0 0 12.5vw;
 
          .elements__text {
             color: var(--white);
 
             h1 {
-               font-size: 1.45vw;
-               font-weight: 500;
+               font-size: 3.5vw;
+               font-weight: 400;
+               margin-bottom: 1.5vw;
             }
 
             p {
-               font-size: 5.5vw;
+               width: 90%;
+               font-size: 4.75vw;
                line-height: 117%;
                font-weight: 800;
             }
@@ -302,11 +304,11 @@ body.index {
    body.index {
       section.main {
          padding: 5vw;
-         height: 60vh;
+         height: 80vh;
          width: 100vw;
          & > header {
             img {
-               width: 5vw;
+               width: 10vw;
             }
             & > div.header__panel {
                a {
@@ -317,14 +319,14 @@ body.index {
          }
 
          div.main__elements {
-            margin: 16vw 0 0 8vw;
+            margin: 16vw 0 0 0vw;
 
             .elements__text {
                h1 {
-                  font-size: 2vw;
+                  font-size: 4vw;
                }
                p {
-                  font-size: 7vw;
+                  font-size: 8.5vw;
                }
             }
 
@@ -465,6 +467,9 @@ body.index {
 @media screen and (max-width: 420px) {
    body.index {
       section.main {
+         padding: 5vw;
+         height: 60vh;
+         width: 100vw;
          & > header {
             img {
                width: 7vw;
@@ -482,11 +487,11 @@ body.index {
 
             .elements__text {
                h1 {
-                  font-size: 3vw;
+                  font-size: 4vw;
                }
                p {
                   margin-top: 1vw;
-                  font-size: 9vw;
+                  font-size: 10vw;
                }
             }
 
@@ -520,10 +525,10 @@ body.index {
       }
 
       section.about {
-         height: 120vh;
+         height: 105vh;
          width: 100vw;
          div.about__title {
-            margin: 9vw auto 0;
+            margin: 15vw auto 0;
             h1 {
                font-size: 8vw;
             }
