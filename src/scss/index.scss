@@ -525,7 +525,8 @@ body.index {
       }
 
       section.about {
-         height: 105vh;
+         padding: 2vw 2vw 17.5vw;
+         height: clamp(105vh, 100%, 140vh);
          width: 100vw;
          div.about__title {
             margin: 15vw auto 0;
@@ -637,3 +638,21 @@ body.index {
       }
    }
 }
+
+// @media screen and (min-height: 899px) {
+//    body.index {
+//       section.about {
+//          height: 105vh;
+//          width: 100vw;
+//       }
+//    }
+// }
+
+// @media screen and (min-height: 640px) and (max-height: 890px) {
+//    body.index {
+//       section.about {
+//          height: 145vh;
+//          width: 100vw;
+//       }
+//    }
+// }
