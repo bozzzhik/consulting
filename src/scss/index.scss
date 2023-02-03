@@ -464,11 +464,11 @@ body.index {
    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
    body.index {
       section.main {
-         padding: 5vw;
-         height: 60vh;
+         padding: 5vw 5vw 30vw;
+         height: clamp(60vh, 100%, 75vh);
          width: 100vw;
          & > header {
             img {
@@ -507,10 +507,11 @@ body.index {
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         margin: 25vw auto;
-         gap: 30vw;
+         margin: 15vw auto;
+
          div.advantages__item {
             width: 80vw;
+            margin: 20vw 2vw;
             img {
                width: 10vw;
                margin-bottom: 5vw;
@@ -550,14 +551,13 @@ body.index {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 20vw;
             margin: 25vw auto 0;
             width: 95%;
 
             div.item {
                width: 90vw;
                height: 25vw;
-               margin: 1vw 2vw;
+               margin: 8vw 2vw;
 
                div.item__header {
                   gap: 4vw;
