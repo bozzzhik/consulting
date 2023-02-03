@@ -560,7 +560,6 @@ body.index {
                margin: 8vw 2vw;
 
                div.item__header {
-                  gap: 4vw;
                   img {
                      width: 10vw;
                   }
@@ -571,6 +570,7 @@ body.index {
                   }
 
                   h1 {
+                     margin-left: 2vw;
                      font-size: 5vw;
                   }
                }
